@@ -1,0 +1,6 @@
+{
+    "name": "Rust Dev Container",
+    "image": "rust:latest",
+    "remoteUser": "root",
+    "postCreateCommand": "cargo build"
+}

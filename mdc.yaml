@@ -1,0 +1,14 @@
+# The Binance REST API endpoint, which will be used to get snapshots
+binance_rest_endpoint: "https://api.binance.com/api/v3/"
+# The Binance WSS endpoint, which will be used to get real-time market updates
+binance_wss_endpoint: "wss://stream.binance.com:9443/ws/"
+# The instrument, that will be listened for updates
+instrument: "BTCUSDT"
+# Maximum amount of market depth, that will be acquired by snapshot requesting logic (up to 5000)
+max_depth: 100
+# The number of parallel web socket connections to be established for depth updates
+connections: 3
+# WSS connection re-establish period in milliseconds
+reconnect_timeout: 5000
+# Snapshot request period in milliseconds
+snapshot_update_interval: 5000

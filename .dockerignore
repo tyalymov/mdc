@@ -1,0 +1,24 @@
+# Rust specific
+target/
+**/*.rs.bk
+Cargo.lock
+
+# Development files
+.git/
+.gitignore
+.env
+.env.*
+Dockerfile.dev
+
+# Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Documentation
+README.md
+docs/
+
+# Debug files
+*.log
